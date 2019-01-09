@@ -10,8 +10,15 @@ import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.util.Tool;
+import org.apache.hadoop.util.ToolRunner;
+import org.apache.log4j.BasicConfigurator;
 
 public class WordCounterDriver extends Configured implements Tool {
+    public static void main(String[] args) throws Exception {
+        BasicConfigurator.configure();
+        ToolRunner.run(new WordCounterDriver(), args);
+    }
+
     @Override
     public int run (String[] strings) throws Exception {
         final Job job = Job.getInstance(getConf());
