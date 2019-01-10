@@ -38,8 +38,8 @@ public class WordCounterDriver extends Configured implements Tool {
         // Seteamos los paths de entrada y salida del job (ARGS)
         // FileInputFormat.addInputPath(job, new Path(args[0]));
         // FileOutputFormat.setOutputPath(job, new Path(args[1]));
-        FileInputFormat.addInputPath(job, new Path("/home/jndurao/IdeaProjects/map-reduce/src/main/resources/wc"));
-        FileOutputFormat.setOutputPath(job, new Path("/home/jndurao/IdeaProjects/map-reduce/src/main/resources/wc-out"));
+        FileInputFormat.addInputPath(job, new Path("/home/bigdata/Workspace/hadoop_examples/src/main/resources"));
+        FileOutputFormat.setOutputPath(job, new Path("/home/bigdata/Workspace/hadoop_examples/src/main/resources/wc_1_out"));
 
         job.setJarByClass(WordCounterDriver.class);
 

@@ -7,10 +7,10 @@ import org.apache.hadoop.mapreduce.Mapper;
 import java.io.IOException;
 
 // public class WordCounterMapper extends Mapper {
-public class WordCounterMapper extends Mapper <Text, Text, Text, LongWritable> {
+public class WordCounterMapper extends Mapper <LongWritable, Text, Text, LongWritable> {
     @Override
     // protected void map (Object key, Object value, Context context) throws IOException, InterruptedException {
-    protected void map(Text key, Text value, Context context) throws IOException, InterruptedException {
+    protected void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
         if (value != null) {
             String[] splits = value.toString().split("\\W+");
 
