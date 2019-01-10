@@ -39,8 +39,8 @@ public class WordCounterCombinerDriver extends Configured implements Tool {
         // Seteamos los paths de entrada y salida del job (ARGS)
         // FileInputFormat.addInputPath(job, new Path(args[0]));
         // FileOutputFormat.setOutputPath(job, new Path(args[1]));
-        FileInputFormat.addInputPath(job, new Path("/home/bigdata/Workspace/hadoop_examples/src/main/resources"));
-        FileOutputFormat.setOutputPath(job, new Path("/home/bigdata/Workspace/hadoop_examples/src/main/resources/wcc_2_out"));
+        FileInputFormat.addInputPath(job, new Path("/home/bigdata/Workspace/hadoop_examples/src/main/resources/WordCounter"));
+        FileOutputFormat.setOutputPath(job, new Path("/home/bigdata/Workspace/hadoop_examples/src/main/resources/WordCounter/wcc_2_out"));
 
         job.setJarByClass(WordCounterCombinerDriver.class);
 

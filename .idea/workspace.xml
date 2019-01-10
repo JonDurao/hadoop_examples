@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfea7525-d258-4f37-9bef-eabb011665f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerCombiner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Media/InputMedia.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WordCounter_1/WordCounterDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordCounter_1/WordCounterDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WordCounter_1/WordCounterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordCounter_1/WordCounterMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wc_1_out/._SUCCESS.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wc_1_out/.part-r-00000.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wc_1_out/_SUCCESS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/wc_1_out/part-r-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/WordCounter/InputWordCounter.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path=".idea/" />
@@ -24,43 +23,72 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerDriver.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Media/mc_3_out/part-r-00000">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Media/InputMedia.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerReducer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="16" column="89" selection-start-line="16" selection-start-column="89" selection-end-line="16" selection-end-column="89" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.1/hadoop-mapreduce-client-core-3.1.1.jar!/org/apache/hadoop/mapreduce/Reducer.class">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerCombiner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="255">
+              <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/WordCounter_1/WordCounterDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="42" column="124" selection-start-line="42" selection-start-column="124" selection-end-line="42" selection-end-column="124" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,9 +109,16 @@
         <option value="$PROJECT_DIR$/src/main/java/WordCounter_1/WordCounterMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Media_3/WordCounterMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Media_3/MediaCombinerMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/InputMedia.txt" />
         <option value="$PROJECT_DIR$/src/main/java/WordCounter_1/WordCounterDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerCombiner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerMapper.java" />
       </list>
     </option>
   </component>
@@ -132,6 +167,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MediaCombiner_3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="WordCounter_1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -149,6 +192,23 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Media" type="462c0819:PsiDirectoryNode" />
+              <item name="mc_3_out" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -158,10 +218,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547117415908" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547118373276" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/WordCounter" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Media" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="MediaCombiner_3" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/Media_3" />
       <recent name="$PROJECT_DIR$/src/main/java/WordCounterCombiner_2" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
@@ -178,7 +246,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WordCounterCombinerDriver">
+  <component name="RunManager" selected="Application.MediaCombinerDriver">
+    <configuration name="MediaCombinerDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MediaCombiner_3.MediaCombinerDriver" />
+      <module name="hadoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MediaCombiner_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WordCounterCombinerDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WordCounterCombiner_2.WordCounterCombinerDriver" />
       <module name="hadoop" />
@@ -208,9 +289,11 @@
     <list>
       <item itemvalue="Application.WordCounterDriver" />
       <item itemvalue="Application.WordCounterCombinerDriver" />
+      <item itemvalue="Application.MediaCombinerDriver" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MediaCombinerDriver" />
         <item itemvalue="Application.WordCounterCombinerDriver" />
         <item itemvalue="Application.WordCounterDriver" />
       </list>
@@ -234,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547115910958</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Finished 2">
+      <created>1547117442087</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547117442087</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -254,8 +344,8 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39944133" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -271,7 +361,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished 1" />
+    <MESSAGE value="Finished 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -292,7 +383,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/input.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/WordCounter/InputWordCounter.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/wc-out/part-r-00000">
@@ -305,10 +396,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordCounter_1/WordCounterDriver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/wcc_2_out/part-r-00000">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -319,23 +420,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/wcc_2_out/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.1/hadoop-mapreduce-client-core-3.1.1.jar!/org/apache/hadoop/mapreduce/Reducer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="543">
@@ -343,13 +427,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerReducer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/WordCounter_1/WordCounterDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        <state relative-caret-position="308">
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="42" column="124" selection-start-line="42" selection-start-column="124" selection-end-line="42" selection-end-column="124" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerCombiner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Media/mc_3_out/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Media/InputMedia.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="89" selection-start-line="16" selection-start-column="89" selection-end-line="16" selection-end-column="89" />
         </state>
       </provider>
     </entry>
