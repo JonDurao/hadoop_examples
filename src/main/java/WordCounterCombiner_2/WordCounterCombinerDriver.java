@@ -1,6 +1,5 @@
-package WordCounter_1;
+package WordCounterCombiner_2;
 
-import WordCounterCombiner_2.WordCounterCombinerReducer;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;
@@ -14,18 +13,19 @@ import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 import org.apache.log4j.BasicConfigurator;
 
-public class WordCounterDriver extends Configured implements Tool {
+public class WordCounterCombinerDriver extends Configured implements Tool {
     public static void main(String[] args) throws Exception {
         BasicConfigurator.configure();
-        ToolRunner.run(new WordCounterDriver(), args);
+        ToolRunner.run(new WordCounterCombinerDriver(), args);
     }
 
     @Override
     public int run (String[] strings) throws Exception {
         final Job job = Job.getInstance(getConf());
 
-        job.setMapperClass(WordCounterMapper.class);
-        job.setReducerClass(WordCounterReducer.class);
+        job.setMapperClass(WordCounterCombinerMapper.class);
+        job.setCombinerClass(WordCounterCombinerReducer.class);
+        job.setReducerClass(WordCounterCombinerReducer.class);
 
         job.setInputFormatClass(TextInputFormat.class);
         job.setOutputFormatClass(TextOutputFormat.class);
@@ -40,9 +40,9 @@ public class WordCounterDriver extends Configured implements Tool {
         // FileInputFormat.addInputPath(job, new Path(args[0]));
         // FileOutputFormat.setOutputPath(job, new Path(args[1]));
         FileInputFormat.addInputPath(job, new Path("/home/bigdata/Workspace/hadoop_examples/src/main/resources"));
-        FileOutputFormat.setOutputPath(job, new Path("/home/bigdata/Workspace/hadoop_examples/src/main/resources/wc_1_out"));
+        FileOutputFormat.setOutputPath(job, new Path("/home/bigdata/Workspace/hadoop_examples/src/main/resources/wcc_2_out"));
 
-        job.setJarByClass(WordCounterDriver.class);
+        job.setJarByClass(WordCounterCombinerDriver.class);
 
         // Lanzamos el job
         // submit no espera a que termine la ejecucion
