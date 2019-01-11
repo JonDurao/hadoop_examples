@@ -15,18 +15,18 @@ import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 import org.apache.log4j.BasicConfigurator;
 
-public class WordCounterDriver extends Configured implements Tool {
+public class WordOccurrencesTotalOrderPartitionerDriver extends Configured implements Tool {
     public static void main(String[] args) throws Exception {
         BasicConfigurator.configure();
-        ToolRunner.run(new WordCounterDriver(), args);
+        ToolRunner.run(new WordOccurrencesTotalOrderPartitionerDriver(), args);
     }
 
     @Override
     public int run (String[] strings) throws Exception {
         final Job job = Job.getInstance(getConf());
 
-        job.setMapperClass(WordCounterMapper.class);
-        job.setReducerClass(WordCounterReducer.class);
+        job.setMapperClass(WordOccurrencesTotalOrderPartitionerWordCounterMapper.class);
+        job.setReducerClass(WordOccurrencesTotalOrderPartitionerWordCounterReducer.class);
 
         job.setInputFormatClass(TextInputFormat.class);
         job.setOutputFormatClass(TextOutputFormat.class);
@@ -43,7 +43,7 @@ public class WordCounterDriver extends Configured implements Tool {
         FileInputFormat.addInputPath(job, new Path("/Users/jondurao/Documents/Master/Exercices/Hadoop/hadoop_examples/src/main/resources/WordOccurrences"));
         FileOutputFormat.setOutputPath(job, new Path("/Users/jondurao/Documents/Master/Exercices/Hadoop/hadoop_examples/src/main/resources/WordOccurrences/wc_7_out"));
 
-        job.setJarByClass(WordCounterDriver.class);
+        job.setJarByClass(WordOccurrencesTotalOrderPartitionerDriver.class);
 
         // We may use a combiner
         job.setPartitionerClass(TotalOrderPartitioner.class);
