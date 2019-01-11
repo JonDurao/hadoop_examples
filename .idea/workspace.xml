@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfea7525-d258-4f37-9bef-eabb011665f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeacherReduceSideJoinPartitioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinDepartmentsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinTeachersMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinWritable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Teachers/InputTeachers.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Teachers/InputTeachersDepartments.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Teachers/9/InputTeachers.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7/WordCounterDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7/WordOccurrencesTotalOrderPartitionerDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7/WordCounterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7/WordOccurrencesTotalOrderPartitionerWordCounterMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7/WordCounterReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7/WordOccurrencesTotalOrderPartitionerWordCounterReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeacherReduceSideJoinPartitioner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinPartitioner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinDriver.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path=".idea/" />
@@ -27,24 +20,46 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinDriver.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="41" column="72" selection-start-line="41" selection-start-column="72" selection-end-line="41" selection-end-column="72" />
+            <state relative-caret-position="920">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Soluciones/src/main/java/com/kschool/ejercicio9/MapSideJoinDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="43" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Teachers/trsj_8_out/part-r-00001">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="30" column="150" selection-start-line="30" selection-start-column="150" selection-end-line="30" selection-end-column="150" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Teachers/trsj_8_out/part-r-00000">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="29" column="158" selection-start-line="29" selection-start-column="145" selection-end-line="29" selection-end-column="158" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Teachers/InputTeachersDepartments.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-end-line="5" />
+              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -75,11 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Media_3/MediaCombinerMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/InputMedia.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/WordCounter_1/WordCounterDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerCombiner.java" />
         <option value="$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerMapper.java" />
@@ -126,6 +136,11 @@
         <option value="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinTeachersMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersReduceSideJoinTeachersMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinTeachersMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinDepartmentsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinDriver.java" />
       </list>
     </option>
   </component>
@@ -182,7 +197,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TeachersReduceSideJoin_8" type="462c0819:PsiDirectoryNode" />
+              <item name="TeachersMapSideJoin_9" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hadoop_examples" type="b2602c69:ProjectViewProjectNode" />
@@ -190,7 +205,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="UrlPartitioner_6" type="462c0819:PsiDirectoryNode" />
+              <item name="TeachersReduceSideJoin_8" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hadoop_examples" type="b2602c69:ProjectViewProjectNode" />
@@ -206,15 +221,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="Teachers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Teachers" type="462c0819:PsiDirectoryNode" />
-              <item name="trsj_8_out" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -226,16 +232,16 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547217929117" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547219865807" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/Teachers/9" />
+      <recent name="$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9" />
       <recent name="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8" />
       <recent name="$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7" />
       <recent name="$PROJECT_DIR$/src/main/java/WordCounterPartitioner_7" />
-      <recent name="$PROJECT_DIR$/src/main/java/UrlPartitioner_6" />
-      <recent name="$PROJECT_DIR$/src/main/java/WritableCustom_5" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="TeachersReduceSideJoin_8" />
@@ -258,13 +264,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TeachersReduceSideJoinDriver">
-    <configuration name="TeachersReduceSideJoinDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TeachersReduceSideJoin_8.TeachersReduceSideJoinDriver" />
+  <component name="RunManager" selected="Application.TeachersMapSideJoinDriver">
+    <configuration name="TeachersMapSideJoinDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TeachersMapSideJoin_9.TeachersMapSideJoinDriver" />
       <module name="hadoop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TeachersReduceSideJoin_8.*" />
+          <option name="PATTERN" value="TeachersMapSideJoin_9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -272,12 +278,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UrlPartitionerDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UrlPartitioner_6.UrlPartitionerDriver" />
+    <configuration name="TeachersReduceSideJoinDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TeachersReduceSideJoin_8.TeachersReduceSideJoinDriver" />
       <module name="hadoop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UrlPartitioner_6.*" />
+          <option name="PATTERN" value="TeachersReduceSideJoin_8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -325,19 +331,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.UrlPartitionerDriver" />
       <item itemvalue="Application.WordOccurrencesTotalOrderPartitionerDriver" />
       <item itemvalue="Application.WordOccurrencesTotalOrderPartitionerDriver" />
       <item itemvalue="Application.WordOccurrencesTotalOrderPartitionerDriver" />
       <item itemvalue="Application.TeachersReduceSideJoinDriver" />
+      <item itemvalue="Application.TeachersMapSideJoinDriver" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TeachersMapSideJoinDriver" />
         <item itemvalue="Application.TeachersReduceSideJoinDriver" />
         <item itemvalue="Application.WordOccurrencesTotalOrderPartitionerDriver" />
         <item itemvalue="Application.WordOccurrencesTotalOrderPartitionerDriver" />
         <item itemvalue="Application.WordOccurrencesTotalOrderPartitionerDriver" />
-        <item itemvalue="Application.UrlPartitionerDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +357,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547052143238</updated>
-      <workItem from="1547206267232" duration="8439000" />
+      <workItem from="1547206267232" duration="10305000" />
     </task>
     <task id="LOCAL-00001" summary="Finished 1">
       <created>1547115910958</created>
@@ -395,17 +401,24 @@
       <option name="project" value="LOCAL" />
       <updated>1547210976105</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finished 8">
+      <created>1547217962223</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1547217962223</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8439000" />
+    <option name="totallyTimeSpent" value="10305000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24741858" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16640191" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -417,7 +430,7 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293944" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3293944" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31610045" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988183" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -447,7 +460,8 @@
     <MESSAGE value="Finished 4" />
     <MESSAGE value="Finished 6" />
     <MESSAGE value="Finished 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished 7" />
+    <MESSAGE value="Finished 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -495,7 +509,7 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeacherReduceSideJoinPartitioner.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinPartitioner.java</url>
           <line>9</line>
           <properties />
           <option name="timeStamp" value="19" />
@@ -504,68 +518,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/WordCounter/wc_1_out/part-r-00000" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordCounter_1/WordCounterDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="124" selection-start-line="42" selection-start-column="124" selection-end-line="42" selection-end-column="124" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/WordCounter/wcc_2_out/part-r-00000" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/WritableCustom/InputWritableCustom.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordCounterCombinerCounter_4/WordCounterCombinerCounterDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordCounterCombinerCounter_4/WordCounterCombinerCounterReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordCounterCombinerCounter_4/WordCounterCombinerCounterMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordCounterCombinerCounter_4/WordCounterCombinerCounterCounters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/WritableCustom/wc_5_out/part-r-00000" />
     <entry file="file://$PROJECT_DIR$/src/main/java/WritableCustom_5/WritableCustomDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -741,13 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Teachers/InputTeachersDepartments.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7/WordOccurrencesTotalOrderPartitionerDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -800,7 +745,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeacherReduceSideJoinPartitioner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinPartitioner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
@@ -831,12 +776,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="41" column="72" selection-start-line="41" selection-start-column="72" selection-end-line="41" selection-end-column="72" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Teachers/trsj_8_out/part-r-00001">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Teachers/trsj_8_out/part-r-00000">
       <provider selected="true" editor-type-id="text-editor">
@@ -845,8 +786,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Teachers/trsj_8_out/part-r-00001">
+    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinPartitioner.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinComparator.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinWritable.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinReducer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinTeachersMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Teachers/InputTeachersDepartments.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Soluciones/src/main/java/com/kschool/ejercicio9/MapSideJoinMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Soluciones/src/main/java/com/kschool/ejercicio9/MapSideJoinDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="43" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Teachers/9/InputTeachersDepartments.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Teachers/9/InputTeachers.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="29" column="158" selection-start-line="29" selection-start-column="145" selection-end-line="29" selection-end-column="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="30" column="150" selection-start-line="30" selection-start-column="150" selection-end-line="30" selection-end-column="150" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

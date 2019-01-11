@@ -3,7 +3,7 @@ package TeachersReduceSideJoin_8;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Partitioner;
 
-public class TeacherReduceSideJoinPartitioner extends Partitioner<TeachersReduceSideJoinWritable, Text> {
+public class TeachersReduceSideJoinPartitioner extends Partitioner<TeachersReduceSideJoinWritable, Text> {
 
     @Override
     public int getPartition(TeachersReduceSideJoinWritable teachersReduceSideJoinWritable, Text text, int i) {
