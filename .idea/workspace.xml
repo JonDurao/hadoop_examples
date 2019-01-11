@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfea7525-d258-4f37-9bef-eabb011665f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/WritableCustom_5/WritableCustomDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WritableCustom_5/WritableCustomMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WritableCustom_5/WritableCustomReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WritableCustom_5/WritableCustomWritable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/WritableCustom/InputWritableCustom.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerPartitioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Urls/InputUrls.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,7 +18,52 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerReducer.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="16" column="89" selection-start-line="16" selection-start-column="89" selection-end-line="16" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerPartitioner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Urls/InputUrls.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -64,10 +109,22 @@
         <option value="$PROJECT_DIR$/src/main/java/WritableCustom_5/WritableCustomMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/WritableCustom_5/WritableCustomReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/WritableCustom_5/WritableCustomDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UrlPartitioner_6/WordCounterMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerPartitioner.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Urls/InputUrls.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="75" />
     <option name="y" value="110" />
     <option name="width" value="1337" />
@@ -81,88 +138,74 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoop_examples" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoop_examples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoop_examples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoop_examples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="WritableCustom_5" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoop_examples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_examples" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoop_examples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="WritableCustom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="WritableCustom" type="462c0819:PsiDirectoryNode" />
-              <item name="wc_5_out" type="462c0819:PsiDirectoryNode" />
+              <item name="Urls" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547124228364" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547207489042" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/WordCounter" />
-      <recent name="$PROJECT_DIR$/src/main/resources/Media" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="MediaCombiner_3" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/UrlPartitioner_6" />
       <recent name="$PROJECT_DIR$/src/main/java/WritableCustom_5" />
       <recent name="$PROJECT_DIR$/src/main/java/WordCounterCombinerCounter_4" />
       <recent name="$PROJECT_DIR$/src/main/java/Media_3" />
       <recent name="$PROJECT_DIR$/src/main/java/WordCounterCombiner_2" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="MediaCombiner_3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/WordCounter" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Media" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -177,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WritableCustomDriver">
+  <component name="RunManager" selected="Application.UrlPartitionerDriver">
     <configuration name="MediaCombinerDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MediaCombiner_3.MediaCombinerDriver" />
       <module name="hadoop" />
@@ -191,12 +234,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCounterCombinerCounterDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WordCounterCombinerCounter_4.WordCounterCombinerCounterDriver" />
+    <configuration name="UrlPartitionerDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UrlPartitioner_6.UrlPartitionerDriver" />
       <module name="hadoop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WordCounterCombinerCounter_4.*" />
+          <option name="PATTERN" value="UrlPartitioner_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,12 +247,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCounterCombinerDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WordCounterCombiner_2.WordCounterCombinerDriver" />
+    <configuration name="WordCounterCombinerCounterDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WordCounterCombinerCounter_4.WordCounterCombinerCounterDriver" />
       <module name="hadoop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WordCounterCombiner_2.*" />
+          <option name="PATTERN" value="WordCounterCombinerCounter_4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,18 +288,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.WordCounterDriver" />
-      <item itemvalue="Application.WordCounterCombinerDriver" />
       <item itemvalue="Application.MediaCombinerDriver" />
       <item itemvalue="Application.WordCounterCombinerCounterDriver" />
       <item itemvalue="Application.WritableCustomDriver" />
+      <item itemvalue="Application.UrlPartitionerDriver" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UrlPartitionerDriver" />
         <item itemvalue="Application.WritableCustomDriver" />
         <item itemvalue="Application.WordCounterCombinerCounterDriver" />
         <item itemvalue="Application.WordCounterDriver" />
         <item itemvalue="Application.MediaCombinerDriver" />
-        <item itemvalue="Application.WordCounterCombinerDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -270,6 +313,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547052143238</updated>
+      <workItem from="1547206267232" duration="1096000" />
     </task>
     <task id="LOCAL-00001" summary="Finished 1">
       <created>1547115910958</created>
@@ -302,36 +346,47 @@
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1096000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1357" height="1201" extended-state="6" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24561404" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24741858" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944133" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3293944" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3988183" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293944" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished 1" />
@@ -373,13 +428,17 @@
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerPartitioner.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/wc-out/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/wc-out/part-r-00000" />
     <entry file="file://$PROJECT_DIR$/src/main/java/WordCounter_1/WordCounterMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -387,13 +446,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/wcc_2_out/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/wcc_2_out/part-r-00000" />
     <entry file="file://$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerReducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -404,13 +457,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.1/hadoop-mapreduce-client-core-3.1.1.jar!/org/apache/hadoop/mapreduce/Reducer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.1/hadoop-mapreduce-client-core-3.1.1.jar!/org/apache/hadoop/mapreduce/Reducer.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerReducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -432,9 +479,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Media/mc_3_out/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Media/mc_3_out/part-r-00000" />
     <entry file="file://$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -456,13 +501,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/WordCounter/wc_1_out/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/WordCounter/wc_1_out/part-r-00000" />
     <entry file="file://$PROJECT_DIR$/src/main/java/WordCounter_1/WordCounterDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="394">
@@ -487,13 +526,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/WordCounter/wcc_2_out/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/WordCounter/wcc_2_out/part-r-00000" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/WritableCustom/InputWritableCustom.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -529,9 +562,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/WritableCustom/wc_5_out/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/WritableCustom/wc_5_out/part-r-00000" />
     <entry file="file://$PROJECT_DIR$/src/main/java/WritableCustom_5/WritableCustomDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -560,6 +591,47 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="16" column="89" selection-start-line="16" selection-start-column="89" selection-end-line="16" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerReducer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Urls/up_6_out/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerPartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Urls/InputUrls.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
