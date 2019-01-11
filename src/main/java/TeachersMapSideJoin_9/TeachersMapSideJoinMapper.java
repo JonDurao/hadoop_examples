@@ -15,7 +15,7 @@ import java.net.URI;
 import java.util.HashMap;
 import java.util.Map;
 
-// public class WordCounterCombinerCounterMapper extends Mapper {
+// public class NgramsMapper extends Mapper {
 public class TeachersMapSideJoinMapper extends Mapper <LongWritable, Text, NullWritable, Text> {
     private Map<Integer, String> dptosMap = new HashMap<Integer, String>();
 
