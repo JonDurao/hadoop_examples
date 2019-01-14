@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfea7525-d258-4f37-9bef-eabb011665f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepedWordPartitioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/GrepedWord/InputGrepedWord.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsReducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Ngrams/InputNgrams.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Ngrams/InputNgrams.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path=".idea/" />
@@ -17,65 +19,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Ngrams/InputNgrams.txt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            <state relative-caret-position="272">
+              <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Soluciones/src/main/java/com/kschool/ejercicio10/NGramsCountMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/GrepedWord/gw_11_out/part-r-00000">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/GrepedWord/gw_11_out/part-r-00001">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepedWordPartitioner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="22" />
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsCounters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsCombiner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsReducer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedReducer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+              <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsMapper.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+            <state relative-caret-position="483">
+              <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -109,13 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/WordCounterCombinerCounter_4/WordCounterCombinerCounterMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/WordCounterCombinerCounter_4/WordCounterCombinerCounterDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/WritableCustom/InputWritableCustom.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/WritableCustom_5/WordCounterCombinerMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/WritableCustom_5/WritableCustomWritable.java" />
-        <option value="$PROJECT_DIR$/src/main/java/WritableCustom_5/WritableCustomMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/WritableCustom_5/WritableCustomReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/WritableCustom_5/WritableCustomDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/UrlPartitioner_6/WordCounterMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerMapper.java" />
@@ -160,6 +138,13 @@
         <option value="$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsReducer.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Ngrams/InputNgrams.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GrepDistributed_11/WordCounterMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/GrepedWord/InputGrepedWord.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GrepDistributed_11/UrlPartitionerPartitioner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepedWordPartitioner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedDriver.java" />
       </list>
     </option>
   </component>
@@ -214,6 +199,22 @@
               <item name="hadoop_examples" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="GrepDistributed_11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop_examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UrlPartitioner_6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop_examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -222,7 +223,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Ngrams" type="462c0819:PsiDirectoryNode" />
+              <item name="GrepedWord" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop_examples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop_examples" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="GrepedWord" type="462c0819:PsiDirectoryNode" />
+              <item name="gw_11_out" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,25 +245,26 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547223074092" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547457972494" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/Ngrams_10" />
-      <recent name="$PROJECT_DIR$/src/main/resources/Teachers/9" />
-      <recent name="$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9" />
-      <recent name="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8" />
-      <recent name="$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/WordCounter" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Media" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="GrepDistributed_11" />
       <recent name="Ngrams_10" />
       <recent name="TeachersReduceSideJoin_8" />
       <recent name="MediaCombiner_3" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/WordCounter" />
-      <recent name="$PROJECT_DIR$/src/main/resources/Media" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/GrepDistributed_11" />
+      <recent name="$PROJECT_DIR$/src/main/java/Ngrams_10" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Teachers/9" />
+      <recent name="$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9" />
+      <recent name="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -268,7 +279,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NgramsDriver">
+  <component name="RunManager" selected="Application.GrepDistributedDriver">
+    <configuration name="GrepDistributedDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GrepDistributed_11.GrepDistributedDriver" />
+      <module name="hadoop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GrepDistributed_11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NgramsDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Ngrams_10.NgramsDriver" />
       <module name="hadoop" />
@@ -339,13 +363,14 @@
       <item itemvalue="Application.TeachersReduceSideJoinDriver" />
       <item itemvalue="Application.TeachersMapSideJoinDriver" />
       <item itemvalue="Application.NgramsDriver" />
+      <item itemvalue="Application.GrepDistributedDriver" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GrepDistributedDriver" />
         <item itemvalue="Application.NgramsDriver" />
         <item itemvalue="Application.TeachersMapSideJoinDriver" />
         <item itemvalue="Application.TeachersReduceSideJoinDriver" />
-        <item itemvalue="Application.WordOccurrencesTotalOrderPartitionerDriver" />
         <item itemvalue="Application.WordOccurrencesTotalOrderPartitionerDriver" />
       </list>
     </recent_temporary>
@@ -361,7 +386,7 @@
       <option name="presentableId" value="Default" />
       <updated>1547052143238</updated>
       <workItem from="1547206267232" duration="13739000" />
-      <workItem from="1547453631660" duration="1422000" />
+      <workItem from="1547453631660" duration="2992000" />
     </task>
     <task id="LOCAL-00001" summary="Finished 1">
       <created>1547115910958</created>
@@ -426,17 +451,24 @@
       <option name="project" value="LOCAL" />
       <updated>1547222761017</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Finished 10">
+      <created>1547455859722</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1547455859723</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15161000" />
+    <option name="totallyTimeSpent" value="16731000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="259" y="1440" width="1920" height="1200" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11608094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17891374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -445,12 +477,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293944" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31597847" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31597847" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988183" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293944" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32854578" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32854578" />
@@ -481,7 +513,8 @@
     <MESSAGE value="Finished 8" />
     <MESSAGE value="Finished 9" />
     <MESSAGE value="10 NOT FINISHED" />
-    <option name="LAST_COMMIT_MESSAGE" value="10 NOT FINISHED" />
+    <MESSAGE value="Finished 10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished 10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -552,29 +585,16 @@
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsReducer.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerReducer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/WordOccurrences/_partition.lst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/WordCounter/InputWordCounter.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7/WordOccurrencesTotalOrderPartitionerReducer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/WordOccurrences/wo_7_out/part-r-00001" />
     <entry file="file://$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7/WordOccurrencesTotalOrderPartitionerMapper.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/WordOccurrences/wc_1_out/part-r-00000" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/WordOccurrences/wo_7_out/part-r-00000" />
@@ -760,38 +780,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsCombiner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.1/hadoop-mapreduce-client-core-3.1.1.jar!/org/apache/hadoop/mapreduce/Mapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsCounters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Ngrams/ng_10_out/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -802,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Soluciones/src/main/java/com/kschool/ejercicio10/NGramsCountMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -816,10 +801,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsCounters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsCombiner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Ngrams/ng_10_out/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+        <state relative-caret-position="-103">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/GrepedWord/InputGrepedWord.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/GrepedWord/gw_11_out/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/GrepedWord/gw_11_out/part-r-00001">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepedWordPartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
         </state>
       </provider>
     </entry>
