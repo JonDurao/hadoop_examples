@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfea7525-d258-4f37-9bef-eabb011665f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsCombiner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsCounters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Ngrams/InputNgrams.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinDepartmentsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinDepartmentsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinTeachersMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinTeachersMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WordCounterCombinerCounter_4/WordCounterCombinerCounterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordCounterCombinerCounter_4/WordCounterCombinerCounterMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordCounterCombiner_2/WordCounterCombinerMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WordCounter_1/WordCounterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordCounter_1/WordCounterMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7/WordOccurrencesTotalOrderPartitionerWordCounterMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7/WordOccurrencesTotalOrderPartitionerWordCounterMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WritableCustom_5/WritableCustomMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WritableCustom_5/WritableCustomMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Ngrams/InputNgrams.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Ngrams/InputNgrams.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path=".idea/" />
@@ -29,12 +16,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/Ngrams/InputNgrams.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="46">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Soluciones/src/main/java/com/kschool/ejercicio10/NGramsCountMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -69,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="184">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -78,17 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1104">
-              <caret line="56" column="51" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.1/hadoop-mapreduce-client-core-3.1.1.jar!/org/apache/hadoop/mapreduce/Mapper.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="437">
+              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -109,6 +96,7 @@
       <find>www.yahooo.es</find>
       <find />
       <find>2</find>
+      <find>attending</find>
     </findStrings>
     <replaceStrings>
       <replace>https://es.yahoo.com/?p=us&amp;guccounter=1</replace>
@@ -165,12 +153,12 @@
         <option value="$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinDepartmentsMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/Ngrams/InputNgrams.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Ngrams_10/WordCounterCombinerCounterMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsCounters.java" />
         <option value="$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsCombiner.java" />
         <option value="$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsDriver.java" />
         <option value="$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Ngrams/InputNgrams.txt" />
         <option value="$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsMapper.java" />
       </list>
     </option>
@@ -182,11 +170,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="75" />
-    <option name="y" value="110" />
-    <option name="width" value="1337" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="259" />
+    <option name="y" value="1440" />
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -196,7 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,13 +228,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547222660682" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547223074092" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -348,7 +336,6 @@
     </configuration>
     <list>
       <item itemvalue="Application.WordOccurrencesTotalOrderPartitionerDriver" />
-      <item itemvalue="Application.WordOccurrencesTotalOrderPartitionerDriver" />
       <item itemvalue="Application.TeachersReduceSideJoinDriver" />
       <item itemvalue="Application.TeachersMapSideJoinDriver" />
       <item itemvalue="Application.NgramsDriver" />
@@ -373,7 +360,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1547052143238</updated>
-      <workItem from="1547206267232" duration="12980000" />
+      <workItem from="1547206267232" duration="13739000" />
+      <workItem from="1547453631660" duration="1422000" />
     </task>
     <task id="LOCAL-00001" summary="Finished 1">
       <created>1547115910958</created>
@@ -431,38 +419,44 @@
       <option name="project" value="LOCAL" />
       <updated>1547219907733</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="10 NOT FINISHED">
+      <created>1547222761017</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1547222761017</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12980000" />
+    <option name="totallyTimeSpent" value="15161000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
+    <frame x="259" y="1440" width="1920" height="1200" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16640191" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11608094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293944" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31610045" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3988183" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31597847" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988183" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293944" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3293944" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32854578" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -471,6 +465,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,7 +480,8 @@
     <MESSAGE value="Finished 7" />
     <MESSAGE value="Finished 8" />
     <MESSAGE value="Finished 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished 9" />
+    <MESSAGE value="10 NOT FINISHED" />
+    <option name="LAST_COMMIT_MESSAGE" value="10 NOT FINISHED" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -540,7 +536,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsMapper.java</url>
-          <line>41</line>
+          <line>42</line>
           <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
@@ -552,7 +548,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsMapper.java</url>
-          <line>45</line>
+          <line>46</line>
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
@@ -577,53 +573,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7/WordOccurrencesTotalOrderPartitionerReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/WordOccurrences/wo_7_out/part-r-00001">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7/WordOccurrencesTotalOrderPartitionerMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7/WordOccurrencesTotalOrderPartitionerDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-          <folding>
-            <element signature="e#2377#2397#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/WordOccurrences/wc_1_out/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/WordOccurrences/wo_7_out/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7/WordOccurrencesTotalOrderPartitionerDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <element signature="e#2062#2082#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7/WordOccurrencesTotalOrderPartitionerReducer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/WordOccurrences/wo_7_out/part-r-00001" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7/WordOccurrencesTotalOrderPartitionerMapper.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/WordOccurrences/wc_1_out/part-r-00000" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/WordOccurrences/wo_7_out/part-r-00000" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/WordOccurrences/InputWordOccurrences.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -752,21 +706,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinPartitioner.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinComparator.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinWritable.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinReducer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinTeachersMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinPartitioner.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinComparator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinWritable.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinReducer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9/TeachersMapSideJoinTeachersMapper.java" />
     <entry file="file://$PROJECT_DIR$/../Soluciones/src/main/java/com/kschool/ejercicio9/MapSideJoinMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
@@ -774,9 +718,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Teachers/9/InputTeachersDepartments.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Teachers/9/InputTeachersDepartments.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/Teachers/9/InputTeachers.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -818,52 +760,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Soluciones/src/main/java/com/kschool/ejercicio10/NGramsCountMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Ngrams/InputNgrams.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsCounters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.1/hadoop-mapreduce-client-core-3.1.1.jar!/org/apache/hadoop/mapreduce/Mapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Ngrams/ng_10_out/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="425" column="33" lean-forward="true" selection-start-line="425" selection-start-column="33" selection-end-line="425" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -874,10 +774,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.1/hadoop-mapreduce-client-core-3.1.1.jar!/org/apache/hadoop/mapreduce/Mapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsCounters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Ngrams/ng_10_out/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Ngrams/InputNgrams.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Soluciones/src/main/java/com/kschool/ejercicio10/NGramsCountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Ngrams_10/NgramsMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1104">
-          <caret line="56" column="51" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+        <state relative-caret-position="437">
+          <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
         </state>
       </provider>
     </entry>

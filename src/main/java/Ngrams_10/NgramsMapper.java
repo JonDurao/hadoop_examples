@@ -5,17 +5,15 @@ import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 // public class NgramsMapper extends Mapper {
 public class NgramsMapper extends Mapper <LongWritable, Text, Text, LongWritable> {
     private final LongWritable one = new LongWritable(1);
+    private Text outKey = new Text();
+    private StringBuilder sb = new StringBuilder();
     private int n = 0;
-    private List<StringBuilder> nGrams = new ArrayList<>();
-    private Set<String> words = new HashSet<>();
+    private TreeSet<String> nGrams = new TreeSet<>();
 
     @Override
     protected void setup(Context context) throws IOException, InterruptedException {
@@ -29,15 +27,18 @@ public class NgramsMapper extends Mapper <LongWritable, Text, Text, LongWritable
             String[] wordsLine = value.toString().toLowerCase().split("\\W+");
 
             for (String word : wordsLine) {
-                if (word.isEmpty())
-                    context.getCounter(NgramsCounters.EMPTY_LINES).increment(1);
-                else
-                    words.add(word);
+                nGrams.add(word);
+
+                if (nGrams.size() == n) {
+                    outKey.set(buildNGram(nGrams));
+                    nGrams.pollFirst();
+                    context.write(outKey, new LongWritable(1));
+                }
             }
         }
     }
 
-    @Override
+    /*@Override
     protected void cleanup(Context context) throws IOException, InterruptedException {
         for (String word : words) {
             buildNgram(word);
@@ -48,9 +49,18 @@ public class NgramsMapper extends Mapper <LongWritable, Text, Text, LongWritable
         }
 
         super.cleanup(context);
+    }*/
+
+    private String buildNGram(Set<String> ngrams) {
+        sb.setLength(0);
+        for (String ngram : ngrams) {
+            sb.append(ngram).append(" ");
+        }
+        return sb.toString().trim();
     }
 
-    private void buildNgram(String word) {
+    /*private void buildNgram(String word) {
+
         if (!word.isEmpty()) {
             for (StringBuilder nGram : nGrams) {
                 if (nGram.toString().split(" ").length < n)
@@ -59,5 +69,5 @@ public class NgramsMapper extends Mapper <LongWritable, Text, Text, LongWritable
 
             nGrams.add(new StringBuilder(word));
         }
-    }
+    }*/
 }

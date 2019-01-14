@@ -10,6 +10,11 @@ public class NgramsReducer extends Reducer <Text, LongWritable, Text, LongWritab
     @Override
     protected void reduce (Text key, Iterable<LongWritable> values, Context context) throws IOException,
             InterruptedException {
-        context.write(key, values.iterator().next());
+        Long count = 0L;
+
+        for (LongWritable value : values)
+            count++;
+
+        context.write(key, new LongWritable(count));
     }
 }
