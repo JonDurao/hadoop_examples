@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfea7525-d258-4f37-9bef-eabb011665f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepedWordPartitioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/GrepedWord/InputGrepedWord.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TopKWords_12/TopKWordsDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TopKWords_12/TopKWordsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TopKWords_12/TopKWordsReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TopKWords_12/WordCounterMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TopKWords_12/WordCounterReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/TopKWords/InputTopKWords.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,49 +19,57 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TopKWords_12/TopKWordsDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TopKWords_12/TopKWordsMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="20" column="92" lean-forward="true" selection-start-line="20" selection-start-column="92" selection-end-line="20" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedDriver.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TopKWords_12/TopKWordsReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+            <state relative-caret-position="380">
+              <caret line="44" column="13" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/GrepedWord/gw_11_out/part-r-00000">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/GrepedWord/gw_11_out/part-r-00001">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepedWordPartitioner.java">
+        <entry file="file://$PROJECT_DIR$/../Soluciones/src/main/java/com/kschool/ejercicio12/TopKWordsReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="214">
+              <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedReducer.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.1/hadoop-mapreduce-client-core-3.1.1.jar!/org/apache/hadoop/mapreduce/Reducer.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+            <state relative-caret-position="210">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedMapper.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.1/hadoop-mapreduce-client-core-3.1.1.jar!/org/apache/hadoop/mapreduce/Mapper.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+            <state relative-caret-position="79">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -94,11 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/WritableCustom_5/WritableCustomDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UrlPartitioner_6/WordCounterMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerPartitioner.java" />
         <option value="$PROJECT_DIR$/src/main/resources/Urls/InputUrls.txt" />
         <option value="$PROJECT_DIR$/src/main/java/WordCounterPartitioner_7/WordCounterMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/WordCounterPartitioner_7/WordCounterPartitionerMapper.java" />
@@ -143,8 +147,13 @@
         <option value="$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/GrepDistributed_11/UrlPartitionerPartitioner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepedWordPartitioner.java" />
         <option value="$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepedWordPartitioner.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TopKWords_12/WordCounterDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TopKWords_12/WordCounterReducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TopKWords_12/TopKWordsDriver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TopKWords_12/TopKWordsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TopKWords_12/TopKWordsReducer.java" />
       </list>
     </option>
   </component>
@@ -155,7 +164,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="259" />
     <option name="y" value="1440" />
     <option name="width" value="1920" />
@@ -169,6 +178,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,15 +210,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="GrepDistributed_11" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="UrlPartitioner_6" type="462c0819:PsiDirectoryNode" />
+              <item name="TopKWords_12" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hadoop_examples" type="b2602c69:ProjectViewProjectNode" />
@@ -223,35 +225,28 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="GrepedWord" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop_examples" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop_examples" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="GrepedWord" type="462c0819:PsiDirectoryNode" />
-              <item name="gw_11_out" type="462c0819:PsiDirectoryNode" />
+              <item name="TopKWords" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547457972494" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547642782470" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/TopKWords_12" />
       <recent name="$PROJECT_DIR$/src/main/resources/WordCounter" />
-      <recent name="$PROJECT_DIR$/src/main/resources/Media" />
+      <recent name="$PROJECT_DIR$/src/main/java/GrepDistributed_11" />
+      <recent name="$PROJECT_DIR$/src/main/java/Ngrams_10" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Teachers/9" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="GrepDistributed_11" />
@@ -259,12 +254,10 @@
       <recent name="TeachersReduceSideJoin_8" />
       <recent name="MediaCombiner_3" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/GrepDistributed_11" />
-      <recent name="$PROJECT_DIR$/src/main/java/Ngrams_10" />
-      <recent name="$PROJECT_DIR$/src/main/resources/Teachers/9" />
-      <recent name="$PROJECT_DIR$/src/main/java/TeachersMapSideJoin_9" />
-      <recent name="$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/TopKWords" />
+      <recent name="$PROJECT_DIR$/src/main/resources/WordCounter" />
+      <recent name="$PROJECT_DIR$/src/main/resources/Media" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -279,7 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GrepDistributedDriver">
+  <component name="RunManager" selected="Application.TopKWordsDriver">
     <configuration name="GrepDistributedDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GrepDistributed_11.GrepDistributedDriver" />
       <module name="hadoop" />
@@ -332,12 +325,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordOccurrencesTotalOrderPartitionerDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WordOccurrencesTotalOrderPartitioner_7.WordOccurrencesTotalOrderPartitionerDriver" />
+    <configuration name="TopKWordsDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TopKWords_12.TopKWordsDriver" />
       <module name="hadoop" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WordOccurrencesTotalOrderPartitioner_7.*" />
+          <option name="PATTERN" value="TopKWords_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -359,19 +352,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WordOccurrencesTotalOrderPartitionerDriver" />
       <item itemvalue="Application.TeachersReduceSideJoinDriver" />
       <item itemvalue="Application.TeachersMapSideJoinDriver" />
       <item itemvalue="Application.NgramsDriver" />
       <item itemvalue="Application.GrepDistributedDriver" />
+      <item itemvalue="Application.TopKWordsDriver" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TopKWordsDriver" />
         <item itemvalue="Application.GrepDistributedDriver" />
         <item itemvalue="Application.NgramsDriver" />
         <item itemvalue="Application.TeachersMapSideJoinDriver" />
         <item itemvalue="Application.TeachersReduceSideJoinDriver" />
-        <item itemvalue="Application.WordOccurrencesTotalOrderPartitionerDriver" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +379,9 @@
       <option name="presentableId" value="Default" />
       <updated>1547052143238</updated>
       <workItem from="1547206267232" duration="13739000" />
-      <workItem from="1547453631660" duration="2992000" />
+      <workItem from="1547453631660" duration="3501000" />
+      <workItem from="1547462895481" duration="196000" />
+      <workItem from="1547639285662" duration="3316000" />
     </task>
     <task id="LOCAL-00001" summary="Finished 1">
       <created>1547115910958</created>
@@ -458,17 +453,24 @@
       <option name="project" value="LOCAL" />
       <updated>1547455859723</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Finished 12">
+      <created>1547457994794</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1547457994794</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16731000" />
+    <option name="totallyTimeSpent" value="20752000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="259" y="1440" width="1920" height="1200" extended-state="6" />
+    <frame x="259" y="1440" width="1920" height="1200" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17891374" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18210863" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -477,8 +479,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3293944" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31597847" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988183" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31597847" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39856374" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -514,7 +516,8 @@
     <MESSAGE value="Finished 9" />
     <MESSAGE value="10 NOT FINISHED" />
     <MESSAGE value="Finished 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished 10" />
+    <MESSAGE value="Finished 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished 12" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -591,90 +594,16 @@
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/TopKWords_12/TopKWordsReducer.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7/WordOccurrencesTotalOrderPartitionerMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/WordOccurrences/wc_1_out/part-r-00000" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/WordOccurrences/wo_7_out/part-r-00000" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/WordOccurrences/InputWordOccurrences.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.1/hadoop-mapreduce-client-core-3.1.1.jar!/org/apache/hadoop/mapreduce/lib/partition/InputSampler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7/WordOccurrencesTotalOrderPartitionerWordCounterReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7/WordOccurrencesTotalOrderPartitionerWordCounterMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="16" column="92" selection-start-line="16" selection-start-column="92" selection-end-line="16" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/WordOccurrences/wc_7_out/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MediaCombiner_3/MediaCombinerCombiner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WordOccurrencesTotalOrderPartitioner_7/WordOccurrencesTotalOrderPartitionerDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Teachers/InputTeachers.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinDepartmentsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="20" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UrlPartitioner_6/UrlPartitionerDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="44" selection-end-column="156" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinWritable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-233">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TeachersReduceSideJoin_8/TeachersReduceSideJoinComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -780,13 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.1/hadoop-mapreduce-client-core-3.1.1.jar!/org/apache/hadoop/mapreduce/Mapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Ngrams/InputNgrams.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -850,9 +772,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/GrepedWord/gw_11_out/part-r-00001">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/GrepedWord/gw_11_out/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepedWordPartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
           <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
         </state>
       </provider>
@@ -864,23 +803,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/GrepedWord/gw_11_out/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/GrepedWord/gw_11_out/part-r-00001">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepedWordPartitioner.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="483">
+          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/GrepDistributed_11/GrepDistributedDriver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/TopKWords/InputTopKWords.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/WordCounter/InputWordCounter.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TopKWords_12/WordCounterMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TopKWords_12/WordCounterReducer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Soluciones/src/main/java/com/kschool/ejercicio12/TopKWordsMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" column="59" selection-start-line="28" selection-start-column="59" selection-end-line="28" selection-end-column="59" />
+        <state relative-caret-position="322">
+          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Soluciones/src/main/java/com/kschool/ejercicio12/WordcountMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Soluciones/src/main/java/com/kschool/ejercicio12/TopKWordsDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="68" column="56" selection-start-line="68" selection-start-column="56" selection-end-line="68" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TopKWords_12/TopKWordsDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="383" column="10" selection-start-line="383" selection-start-column="10" selection-end-line="383" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/TopKWords/tkp_12_out/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.1/hadoop-mapreduce-client-core-3.1.1.jar!/org/apache/hadoop/mapreduce/Mapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/3.1.1/hadoop-mapreduce-client-core-3.1.1.jar!/org/apache/hadoop/mapreduce/Reducer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Soluciones/src/main/java/com/kschool/ejercicio12/TopKWordsReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="38" column="13" lean-forward="true" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TopKWords_12/TopKWordsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="20" column="92" lean-forward="true" selection-start-line="20" selection-start-column="92" selection-end-line="20" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TopKWords_12/TopKWordsReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="44" column="13" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
         </state>
       </provider>
     </entry>
